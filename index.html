@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html lang="fr">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+      <title>Kevin Kotcherga - Développeur Web - Ruby On Rails - React - Full stack</title>
+      <link rel="stylesheet" href="style.css" />
+      <script src="script.js" defer></script>
+    </head>
+
+    <body>
+      <svg onclick="history.back()" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24"
+        style="fill: var(--link);" class="btn-back">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+      </svg>
+      <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 id="question">Question text</h2>
+          <ul>
+            <li>
+              <input type="radio" id="a" name="answer" class="answer" />
+              <label id="a_text" for="a">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="b" name="answer" class="answer" />
+              <label id="b_text" for="b">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="c" name="answer" class="answer" />
+              <label id="c_text" for="c">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="d" name="answer" class="answer" />
+              <label id="d_text" for="d">Question</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit">Envoyer</button>
+      </div>
+    </body>
+  </html>
